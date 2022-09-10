@@ -20,6 +20,28 @@
   ],
   "commands": [
     {
+      "name": "appendToVocabularyCommand",
+      "title": "Append to Vocabulary",
+      "subtitle": "Obsidian",
+      "description": "Appends name and description to vocabulary file.",
+      "mode": "view",
+      "arguments": [
+        {
+          "name": "searchArgument",
+          "placeholder": "name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "tagArgument",
+          "placeholder": "description",
+          "type": "text",
+          "required": true
+        }
+      ],
+      "preferences": []
+    },
+    {
       "name": "searchNoteCommand",
       "title": "Search Note",
       "subtitle": "Obsidian",
